@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <title>Noah Frew's Website</title>
+    <meta charset = "UTF-8" /> 
+    <link rel="stylesheet" href="FinalProjectCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="FinalProjectJS.js"></script>
+</head>
+<body onload="setImage()">
+     <ul id="navBar">
+        <li>
+            <button class="navButton" onclick="location.href='index.html'" type="button">Home</button>
+        </li>
+        <li>
+            <button class="navButton" id="selectedColor" type="button">Photo Gallery</button>
+        </li>
+        <li>
+            <button class="navButton" onclick="location.href='Services.html'" type="button">Services</button>
+        </li>
+        <li>
+            <button class="navButton" onclick="location.href='PrivateInfo.html'" type="button">Private Info</button>
+        </li>
+    </ul>
+    <div id="mainWrapper" style="padding-bottom: 0">
+        <h1 id="title">Photos</h1>
+        <ul id="picNav">
+            <li>
+                <button class="picButton" onclick="landscapes()" type="button">Landscapes</button>
+            </li>
+            <li>
+                <button class="picButton" onclick="portraits()" type="button">Portraits</button>
+            </li>
+            <li>
+                <button class="picButton" onclick="misc()" type="button">Miscellaneous</button>
+            </li>
+        </ul>
+      <!--  <h1 id="title">Photos</h1>
+        <div class="imageWrapper">
+            <img src="IMG_9343.jpg" alt="Old Faithful" class="imageHolder" onclick="">
+        </div>
+        <div class="imageWrapper">
+            <img src="IMG_9490.png" alt="Summer Boys" class="imageHolder">
+        </div>
+        <div class="imageWrapper">
+            <img src="IMG_8658.JPG" alt="Tetons" class="imageHolder">
+        </div>
+        <div class="imageWrapper">
+            <img src="IMG_2659.jpg" class="imageHolder">
+        </div>
+        <div class="imageWrapper">
+            <img src="BearPups.jpg" alt="Picture 5" class="imageHolder">
+        </div> -->
+    </div>
+    <div id="imageContent">
+    </div>
+</body>
+</html>

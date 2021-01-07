@@ -1,0 +1,159 @@
+#mainWrapper {
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+#title {
+    text-align: center;
+    font-family: "Arial", sans-serif, cursive;
+    font-size: 30pt;
+}
+
+#noahImage {
+    height: auto;
+    width: 30%;
+    border-radius: 15px;
+}
+
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    height: 50px;
+    background-color: gainsboro;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#selectedColor {
+    background-color: floralwhite;
+}
+
+#infoP {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+#noahWrapper {
+    margin: auto;
+}
+
+#picNav {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+#imageContent {
+    padding: 50px;
+    text-align: center;
+}
+
+#buttonWrapper {
+    padding: 50px;
+    margin: 20px;
+}
+
+#inputWrapper {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#privateList {
+    list-style-type: square;
+    text-align: center;
+    font-family: "Arial", sans-serif, cursive;
+    padding: 20px;
+}
+
+#serviceDropper {
+    width: 30%;
+    border: solid 1px black;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#formWrapper {
+    margin-top: 30px;
+}
+
+.imageHolder {
+    width: 70%;
+    height: auto;
+    margin: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.navButton {
+    background-color: gainsboro;
+    border: none;
+}
+
+
+.navButton:hover {
+    background-color: black;
+    color: floralwhite;
+}
+
+.picButton {
+    background-color: gainsboro;
+    border: none;
+}
+
+.picButton:hover {
+    background-color: black;
+    color: floralwhite;
+}
+
+.serviceWrapper {
+    width: 30%;
+    border: solid 1px black;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    display: inline;
+}
+
+button {
+    background-color: aliceblue;
+    height: 50px;
+    width: 100px;
+}
+
+div {
+    font-family: "Arial", sans-serif, cursive;
+}
+
+p {
+    font-family: "Arial", sans-serif, cursive; 
+}
+
+h2 {
+    font-family: "Arial", sans-serif, cursive; 
+}
+
+h3 {
+    font-family: "Arial", sans-serif, cursive;
+}
+
+h4 {
+    font-family: "Arial", sans-serif, cursive;
+}
+

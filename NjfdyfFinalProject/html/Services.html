@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <title>Noah Frew's Website</title>
+    <meta charset = "UTF-8" /> 
+    <link rel="stylesheet" href="FinalProjectCSS.css">
+    <link href="http://ec2-18-222-217-226.us-east-2.compute.amazonaws.com/Lectures/User%20Interface%20Design%20(During%20Class)/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet">
+    <script src="http://ec2-18-222-217-226.us-east-2.compute.amazonaws.com/Lectures/User%20Interface%20Design%20(During%20Class)/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+    <script src="http://ec2-18-222-217-226.us-east-2.compute.amazonaws.com/Lectures/User%20Interface%20Design%20(During%20Class)/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <script src="FinalProjectJS.js"></script>
+</head>
+<body onload="serviceDrag()">
+    <ul id="navBar">
+        <li>
+            <button class="navButton" onclick="location.href='index.html'" type="button">Home</button>
+        </li>
+        <li>
+            <button class="navButton" onclick="location.href='PhotoGallery.html'" type="button">Photo Gallery</button>
+        </li>
+        <li>
+            <button class="navButton" id="selectedColor" type="button">Services</button>
+        </li>
+        <li>
+            <button class="navButton" onclick="location.href='PrivateInfo.html'" type="button">Private Info</button>
+        </li>
+    </ul>
+    <div id="mainWrapper" align="center">
+        <h1 id="title">Services</h1>
+        <h2>Drag a service of your choosing and leave your email for inquiries</h2>
+        <div id="picService" class="serviceWrapper" align="center">
+            <h3>Take a Picture</h3>
+            <p>Need your picture taken? Whether it's for graduation or just for fun, I'm your guy.</p>
+        </div>
+        <div id="printService" class="serviceWrapper">
+            <h3>Buy a Print</h3>
+            <p>Like my collection? Buy a print of it to hang up on your wall.</p>
+        </div>
+        <div id="webService" class="serviceWrapper">
+            <h3>Build a Website</h3>
+            <p>Hoping to get an idea of the ground? A website is always a good place to start, and I would love to help you out.</p>
+        </div>
+        <div id="vidService" class="serviceWrapper">
+            <h3>Film a Video</h3>
+            <p>Want a high quality video? From commercials to help with Youtube, I can make you a thoughtful video of your choosing.</p>
+        </div>
+        <div id="serviceDropper">
+            <h3>Place your Service Here</h3>
+        </div>
+        <div id="formWrapper">
+            <form id="myForm" method="POST">
+		      <input type="text" name="myText">
+	        </form>
+	        <button type="button" class="picButton" onclick="doSubmit()" style="margin-top: 30px;">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

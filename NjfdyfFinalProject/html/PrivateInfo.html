@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+    <title>Noah Frew's Website</title>
+    <meta charset = "UTF-8" /> 
+    <link rel="stylesheet" href="FinalProjectCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="FinalProjectJS.js"></script>
+</head>
+<body onload="login()">
+    <ul id="navBar">
+        <li>
+            <button class="navButton" onclick="location.href='index.html'" type="button">Home</button>
+        </li>
+        <li>
+            <button class="navButton" onclick="location.href='PhotoGallery.html'" type="button">Photo Gallery</button>
+        </li>
+        <li>
+            <button class="navButton" onclick="location.href='Services.html'" type="button">Services</button>
+        </li>
+        <li>
+            <button class="navButton" id="selectedColor" type="button">Private Info</button>
+        </li>
+    </ul>
+    <div id="mainWrapper">
+        <h1 id="title">Private Info</h1>
+        <div id="inputWrapper">
+            <input type="text" id="username">
+	        <input type="password" id="password">
+        </div>
+        <div id="buttonWrapper">
+	       <button id="login" class="picButton">Login</button>
+	       <button id="logout" class="picButton">Logout</button>
+	       <button id="get" class="picButton">Get Content</button>
+        </div>    
+        <div id="stage">
+            <h3>Private Info will be displayed here</h3>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
